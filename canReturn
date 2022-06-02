@@ -1,0 +1,7 @@
+    def change_x(self):
+        self.x_last = self.x
+        self.x += self.x_dir * self.speed
+        
+    def change_y(self):
+        self.y_last = self.y
+        self.y += self.y_dir * self.speed
